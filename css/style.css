@@ -30,13 +30,14 @@ img {
 }
 
 .header a {
-  display: inline-block;
-  background: #e50914;
-  color: white;
-  align-self: flex-start;
-  padding: 8px 18px;
-  text-decoration: none;
-  border-radius: 3px;
+ position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 490px;
+  top: 28px;
+  left: 56px;
 }
 
 .main {
