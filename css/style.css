@@ -21,10 +21,10 @@ img {
 .header {
   position: absolute;
   z-index: 100;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
-  max-width: 1790px;
+  max-width: 390px;
   top: 28px;
   left: 56px;
 }
