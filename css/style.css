@@ -19,11 +19,12 @@ img {
 }
 
 .header {
+  position: absolute;
   z-index: 100;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  max-width: 59px;
+  max-width: 490px;
   top: 28px;
   left: 56px;
 }
