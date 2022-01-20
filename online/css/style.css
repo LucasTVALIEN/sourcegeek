@@ -221,7 +221,7 @@ a:hover {
 .header a {
  position: absolute;
   z-index: 100;
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   max-width: 290px;
