@@ -208,3 +208,13 @@ a:hover {
   -webkit-transform: translate3d(125px, 0, 0);
           transform: translate3d(125px, 0, 0);
 }
+.header a {
+ position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  top: 28px;
+  left: 56px;
+}
