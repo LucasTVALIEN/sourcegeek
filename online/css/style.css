@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body,
@@ -213,8 +214,7 @@ a:hover {
 }
 }
 .lucas a {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;  
+   position: fixed;
+   width: 200px;
+   height: 200px;
 }
