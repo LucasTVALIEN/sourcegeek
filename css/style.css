@@ -43,7 +43,7 @@ img {
 .main {
   padding-top: 4rem;
   height: 785px;
-  background: url("https://github.com/LucasTVALIEN/sourcegeek/blob/main/img/fundoseries.jpg?raw=true") center;
+  background: url("../img/fundoseries.jpg") center;
   display: flex;
   align-items: center;
   justify-content: center;
