@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>CANAL</title>
+  
+<style>
+  
+  #vid {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      margin: auto;
+      max-height: 100%;
+      max-width: 100%;
+      position: center;
+  }
+</style>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+
+
+<div id="oper"></div>
+
+<div id="vid"></div>
+
+<script>
+
+ player = new Clappr.Player({
+
+ source: "http://pfsv.io:80/live/1353156238/37396/106.m3u8",
+
+ mimeType: "application/x-mpegURL",
+
+ autoPlay: true, 
+
+width: '100%',
+        height: '100%',
+        exitFullscreenOnEnd: false, 
+
+    
+plugins: {"core": [LevelSelector]}, 
+
+ parentId: "#vid"});
+
+</script>
+
+</body>
+</html>
