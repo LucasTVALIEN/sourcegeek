@@ -1,2 +1,3 @@
 #EXTM3U
-http://pfsv.io:80/1353156238/37396/210.m3u8
+#EXTINF:-1 tvg-logo="http://pfsv.io:80/images/hY0JZLUiGEmuRLvXATisHM3tw1f_big.jpg" group-title="canais| Amc
+http://pfsv.io:80/live/1353156238/37396/210.m3u8
