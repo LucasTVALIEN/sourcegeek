@@ -6,7 +6,7 @@
 <script>
     document.querySelector('#version').innerText = `hls.js version: ${Hls.version}  cdnbye version: ${Hls.engineVersion}`;
     var video = document.getElementById('video');
-    var source = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
+    var source = 'http://pfsv.io/live/1353156238/37396/365.m3u8';
     if(Hls.isSupported()) {
         var hls = new Hls({
             p2pConfig: {
